@@ -40,5 +40,5 @@ Welcome to my Machine Learning portfolio. This repository contains end-to-end pr
 
 ## 📬 Contact
 I am currently seeking **Machine Learning Internships** in Lahore. 
-- **LinkedIn:** [Your LinkedIn Profile Link]
-- **Email:** [Your Email Address]
+- **LinkedIn:** [www.linkedin.com/in/muhammad-jawwad-gul](LinkedIn)
+- **Email:** jawwadgul12@gmail.com
