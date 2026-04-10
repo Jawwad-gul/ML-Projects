@@ -12,7 +12,8 @@ Welcome to my Machine Learning portfolio. This repository contains end-to-end pr
 - **Highlights:** - Built a robust **Preprocessing Pipeline** (imputation, encoding, scaling) to prevent data leakage.
     - Optimized an **XGBRegressor** using **GridSearchCV** with 8-fold cross-validation.
     - **Deployment:** Integrated the trained model into a live web app.
-- **🔗 [Live Demo on Hugging Face](https://huggingface.co/spaces/jawwad1234/Retail_Sales_Forecasting_Engine)**
+- ### [Live Demo on Hugging Face](https://huggingface.co/spaces/jawwad1234/Retail_Sales_Forecasting_Engine)
+- ![liveDemoSS](BigMartSalesPrediction/assets/BIgMartSalesEngine.png)
 
 ### 2. Telecom Customer Churn Prediction (Classification)
 **Objective:** Predict customer attrition for a telecom provider to improve retention strategies.
