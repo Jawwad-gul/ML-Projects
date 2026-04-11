@@ -1,4 +1,4 @@
-# Machine Learning & Predictive Analytics Portfolio
+# **Machine Learning & Predictive Analytics Portfolio**
 
 Welcome to my Machine Learning portfolio. This repository contains end-to-end projects ranging from retail sales forecasting to financial risk assessment, with a focus on production-ready pipelines and model interpretability.
 
@@ -6,7 +6,7 @@ Welcome to my Machine Learning portfolio. This repository contains end-to-end pr
 
 ##  Projects Overview
 
-### 1. BigMart Sales Optimization (Regression & Deployment)
+## 1. BigMart Sales Optimization (Regression & Deployment)
 **Objective:** Forecast product sales for a retail giant to optimize supply chain management.
 - **Tech Stack:** Python, Scikit-Learn, XGBoost, Joblib, Gradio.
 - **Highlights:** - Built a robust **Preprocessing Pipeline** (imputation, encoding, scaling) to prevent data leakage.
@@ -15,20 +15,46 @@ Welcome to my Machine Learning portfolio. This repository contains end-to-end pr
 - ### [Live Demo on Hugging Face](https://huggingface.co/spaces/jawwad1234/Retail_Sales_Forecasting_Engine)
 - ![liveDemoSS](BigMartSalesPrediction/assets/BIgMartSalesEngine.png)
 
-### 2. Telecom Customer Churn Prediction (Classification)
+---
+
+## 2. Telecom Customer Churn Prediction (Classification)
 **Objective:** Predict customer attrition for a telecom provider to improve retention strategies.
 - **Tech Stack:** Pandas, Matplotlib, AdaBoost, Random Forest, SVC.
 - **Highlights:** - Handled dirty data (e.g., converting object-type currency strings to numeric).
     - Prioritized **Recall** and **ROC-AUC** over accuracy to minimize business loss from "false negatives."
     - Conducted comprehensive EDA to identify 'Contract Type' and 'Tenure' as key churn indicators.
 
-### 3. Credit Default Risk Analysis (Model Theory)
-**Objective:** Classify the likelihood of credit card default.
-- **Tech Stack:** Scikit-Learn (Decision Trees, Random Forest), NumPy.
-- **Highlights:** - Explored the **Bias-Variance Tradeoff** by comparing unconstrained vs. pruned Decision Trees.
-    - Demonstrated how **Random Forest** improves model stability across different data splits compared to single trees.
-    - Focused on a rigorous validation strategy to ensure model generalization.
+---
 
+## Credit Default Risk Prediction
+
+**End-to-End Machine Learning Project**  
+Predicting whether a credit card customer will default next month using the UCI Credit Card dataset.
+
+### Business Problem
+Banks lose huge amounts when customers default. This model helps identify high-risk customers **before** the next billing cycle so proactive steps can be taken.
+
+### Key Challenges & How I Solved Them
+- **Data Leakage**: The original dataset contained current-month features that indirectly revealed the target. I identified and removed them.
+- **Time-aware Validation**: Used temporal split (older data for training, newer data for testing) instead of random split to simulate real-world conditions.
+- **Model Comparison**: Started with Logistic Regression → Tuned Decision Tree → Random Forest.
+
+### Models & Results
+| Model                  | Test Accuracy | Notes |
+|------------------------|---------------|-------|
+| Logistic Regression    | ~79.5%        | Strong baseline after scaling |
+| Decision Tree (max_depth=8) | ~80.0%   | Reduced overfitting |
+| Random Forest (500 trees) | **80.5%**  | Best generalization & stability |
+
+### What I Delivered
+- Proper feature engineering & scaling
+- Leakage detection and removal
+- Bias–variance analysis
+- Business-focused insights
+
+**Tech Stack**: Python, Pandas, Scikit-learn, Matplotlib
+
+Repository [CredictDefault_repo](Credit%20Default)
 ---
 
 ##  Core Skills
