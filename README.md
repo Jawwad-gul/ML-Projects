@@ -46,6 +46,9 @@ Banks lose huge amounts when customers default. This model helps identify high-r
 | Decision Tree (max_depth=8) | ~80.0%   | Reduced overfitting |
 | Random Forest (500 trees) | **80.5%**  | Best generalization & stability |
 
+**Feature Importance:**  
+Repayment history from the past 4–6 months (PAY_4, PAY_5, PAY_6) are by far the strongest predictors of default, followed by credit limit (LIMIT_BAL).  
+![Feature Importance](Credit%20Default/assets/featuresImportance.png)
 ### What I Delivered
 - Proper feature engineering & scaling
 - Leakage detection and removal
